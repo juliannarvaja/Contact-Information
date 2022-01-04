@@ -122,3 +122,23 @@ input {
     background-color: #9599E2;
     color: white;
 }
+
+@media all and (max-width: 1000px) {
+    .navegación ul {
+        flex-wrap: wrap;
+    }
+
+.navegación li {
+    flex: 1 1 50%;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup input {
+    margin: 5px;
+}
+
+}
